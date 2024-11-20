@@ -15,11 +15,11 @@ return(
 
         <div className='right'>
             <p className='summary'>Summary</p>
-            <div className='reaction'>Reaction</div>
-            <div className='memory'>Memory</div>
-            <div className='verbal'>Verbal</div>
-            <div className='visual'>Visual</div>
-            <input type='submit' value='continue'/>
+            <div className='reaction'><p className='rea'>Reaction</p><div className='num'><p>80</p><p style={{color:'gray'}}>/100</p></div></div>
+            <div className='memory'><p className='mem'>Memory</p><div className='num'><p>92</p><p style={{color:'gray'}}>/100</p></div></div>
+            <div className='verbal'><p className='ver'>Verbal</p><div className='num'><p>61</p><p style={{color:'gray'}}>/100</p></div></div>
+            <div className='visual'><p className='vis'>Visual</p><div className='num'><p>72</p><p style={{color:'gray'}}>/100</p></div></div>
+            <input className='continue' type='submit' value='Continue'/>
         </div>
     </div>
 )
