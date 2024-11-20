@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    box-shadow: 2px 2px 35px rgba(0, 0, 0, 0.2);
+}
+.left{
+    flex: 50%;
+    background-color: rgb(95, 63, 252);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right{
+    flex: 50%;
+    background-color: white;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+.yresult{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(214, 214, 214);
+    opacity: 0.9;
+}
+.score{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.total{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 232, 232);
+    opacity: 0.8;
+}
+.great{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.greet{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 160px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.circle{
+    height: 170px;
+    width: 170px;
+    /* background-color: rgb(74, 36, 207); */
+    border-radius: 50%;
+    background: linear-gradient(to bottom,rgba(74, 36, 207,1),rgba(74, 36, 207,0.1));
+}
+
+.summary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.reaction{
+    background-color: rgb(255, 246, 245);
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.memory{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 242);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.verbal{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(242, 250, 250);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.visual{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 253);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
